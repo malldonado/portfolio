@@ -4,6 +4,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Image from 'next/image';
 
 const logos = [
   { src: '/logos/1.svg', alt: 'Logo 1' },
@@ -73,7 +74,7 @@ const Skills: React.FC = () => {
           <Slider {...settings}>
             {logos.map((logo, index) => (
               <div key={index} className="flex justify-center">
-                <img
+                <Image
                   className="max-h-20 sm:max-h-20 lg:max-h-24 mx-4 sm:mx-6"
                   src={logo.src}
                   alt={logo.alt}

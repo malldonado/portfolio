@@ -9,9 +9,9 @@ function Hero({}: Props) {
       <div className="w-full md:w-3/4 text-left md:mb-[-10px] h-full flex items-center md:items-end justify-start">
         <div>
           <span className="text-lg md:text-2xl">
-            <p>We specialize in crafting exceptional digital</p>
-            <p>experiences to help our clients achieve their</p>
-            <p>business goals.</p>
+            <p>I'm a dedicated full stack developer, passionate about</p>
+            <p>challenges and always eager to tackle new projects,</p>
+            <p>bringing innovative ideas to life.</p>
           </span>
           <h1 className="mt-10 text-6xl md:text-9xl ml-0 md:ml-[-5px]">
             Developer <br /> Full-Stack

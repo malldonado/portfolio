@@ -13,7 +13,7 @@ function Navbar({}: Props) {
       <span className="text-white text-3xl">malldonado</span>
       <div className="text-white text-[25px] flex space-x-5">
         <a
-          href="https://www.linkedin.com/in/matheusmaldonado"
+          href="https://www.linkedin.com/in/matheusmaldonadosilva"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer"
@@ -21,7 +21,7 @@ function Navbar({}: Props) {
           <SiLinkedin />
         </a>
         <a
-          href="https://www.instagram.com/malldonado.dev"
+          href="https://www.instagram.com/matheusmalldonado"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer"

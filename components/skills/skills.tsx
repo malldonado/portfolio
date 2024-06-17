@@ -65,10 +65,6 @@ const Skills: React.FC = () => {
           <h2 className="text-4xl sm:text-5xl lg:text-7xl leading-tight mb-6">
             Skills
           </h2>
-          {/* Uncomment below if you want to add a description */}
-          {/* <p className="text-lg sm:text-2xl mb-8">
-            Minhas habilidades abrangem tanto o desenvolvimento front-end quanto back-end
-          </p> */}
         </div>
         <div className="mt-12 sm:mt-12 mx-[-15px]">
           <Slider {...settings}>
@@ -78,6 +74,8 @@ const Skills: React.FC = () => {
                   className="max-h-20 sm:max-h-20 lg:max-h-24 mx-4 sm:mx-6"
                   src={logo.src}
                   alt={logo.alt}
+                  width={70}
+                  height={70}
                 />
               </div>
             ))}

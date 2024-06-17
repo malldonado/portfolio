@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
       id: 4,
       image: "/projects/4.png",
       text:
-        "Fluxplaces marketplace is an innovative application that connects users with physical stores via Google Maps, enabling them to locate desired products within a specified radius, complete with promotions and coupons. Developed using ReactJS with Next.js and styled with TailwindCSS, the frontend incorporates TypeScript for enhanced security and scalability. In the backend, TypeScript combined with MongoDB provides a robust foundation for the application, efficiently managing user data, store information, and transactions. Fluxplaces not only facilitates proximity-based product searches but also fosters interaction between consumers and local retailers, promoting a more dynamic and accessible commerce experience.",
+        "Fluxplaces marketplace is an innovative application that connects users with physical stores via Google Maps, enabling them to locate desired products within a specified radius, complete with promotions and coupons. Developed using ReactJS with Next.js and styled with TailwindCSS, the frontend incorporates TypeScript for enhanced security and scalability. In the backend, TypeScript combined with MongoDB provides a robust foundation for the application, efficiently managing user data, store information, and transactions.",
     },
   ];
 
@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
           Projects
         </h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-y-20 gap-x-8 mx-auto max-w-7xl">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 md:gap-y-20 mx-auto max-w-7xl">
         {projects.map((project, index) => (
           <Project key={project.id} project={project} index={index} />
         ))}
@@ -97,11 +97,11 @@ const Project: React.FC<ProjectProps> = ({ project, index }) => {
       {/* Container do texto */}
       <div
         ref={textRef}
-        className={`relative h-80 md:h-96 rounded-2xl overflow-hidden group cursor-pointer transition-opacity duration-1000 ease-in-out opacity-0 ${
+        className={`relative h-auto md:h-96 rounded-2xl overflow-hidden group cursor-pointer transition-opacity duration-1000 ease-in-out opacity-0 ${
           textInView ? "opacity-100" : ""
         }`}
       >
-        <span className="text-lg sm:text-xl text-white flex items-center h-full">
+        <span className="text-md sm:text-xl text-white flex items-start h-full mt-6 mb-20 md:mt-0 md:mb-0">
           {project.text}
         </span>
       </div>

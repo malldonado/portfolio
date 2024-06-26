@@ -22,14 +22,14 @@ const Projects: React.FC = () => {
       text:
         "The Art Burger application is a dynamic website tailored for a gourmet hamburger joint. Developed in ReactJS with Vite and styled using TailwindCSS, it offers users the ability to explore gourmet burger promotions and an extensive menu. Customers can seamlessly purchase burgers and make payments via credit card, with transaction details accessible through a user panel. This panel provides comprehensive user information, order placement options, and a history of past orders. Backed by Node.js and MongoDB, the application ensures efficient data management and a smooth user experience, enhancing convenience and satisfaction for burger enthusiasts.",
     },
+    // {
+    //   id: 3,
+    //   image: "/projects/3.png",
+    //   text:
+    //     "Desenvolve website is a forum dedicated to the IT community, designed for comprehensive discussions on programming languages, hardware, and related fields. Built using Vue with ViteJS for the frontend, the layout is crafted using HTML and CSS with Bootstrap to ensure a modern and responsive interface. On the backend, it is implemented in PHP with MySQL as the database, providing a robust framework for storing and managing user information and forum content. Desenvolve offers an ideal platform for sharing knowledge, resolving queries, and fostering interaction among technology professionals and enthusiasts.",
+    // },
     {
       id: 3,
-      image: "/projects/3.png",
-      text:
-        "Desenvolve website is a forum dedicated to the IT community, designed for comprehensive discussions on programming languages, hardware, and related fields. Built using Vue with ViteJS for the frontend, the layout is crafted using HTML and CSS with Bootstrap to ensure a modern and responsive interface. On the backend, it is implemented in PHP with MySQL as the database, providing a robust framework for storing and managing user information and forum content. Desenvolve offers an ideal platform for sharing knowledge, resolving queries, and fostering interaction among technology professionals and enthusiasts.",
-    },
-    {
-      id: 4,
       image: "/projects/4.png",
       text:
         "Fluxplaces marketplace is an innovative application that connects users with physical stores via Google Maps, enabling them to locate desired products within a specified radius, complete with promotions and coupons. Developed using ReactJS with Next.js and styled with TailwindCSS, the frontend incorporates TypeScript for enhanced security and scalability. In the backend, TypeScript combined with MongoDB provides a robust foundation for the application, efficiently managing user data, store information, and transactions.",
@@ -44,11 +44,11 @@ const Projects: React.FC = () => {
           titleInView ? "opacity-100" : ""
         }`}
       >
-        <h2 className="text-4xl sm:text-5xl lg:text-7xl leading-tight mb-16">
+        <h2 className="text-4xl sm:text-5xl lg:text-7xl leading-tight md:mb-12 mb-8">
           Projects
         </h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 md:gap-y-20 mx-auto max-w-7xl">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 md:gap-y-20 mx-auto max-w-7xl md:gap-x-8">
         {projects.map((project, index) => (
           <Project key={project.id} project={project} index={index} />
         ))}
@@ -101,7 +101,7 @@ const Project: React.FC<ProjectProps> = ({ project, index }) => {
           textInView ? "opacity-100" : ""
         }`}
       >
-        <span className="text-md sm:text-xl text-white flex items-start h-full mt-6 mb-20 md:mt-0 md:mb-0">
+        <span className="text-md sm:text-xl text-white flex items-start md:items-center h-full mt-6 mb-20 md:mt-0 md:mb-0">
           {project.text}
         </span>
       </div>

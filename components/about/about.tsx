@@ -23,27 +23,11 @@ function About({ language }: Props) {
           <p className="text-lg sm:text-2xl">
             {language === "en" ? (
               <>
-                Graduated in Analysis and Systems Development from FATEC, currently
-                studying English at Influx, I worked as a front-end developer on the
-                animal adoption TCC project and at Performa.ai on e-commerce
-                integrations, learning Next.js, GraphQL, AWS, and Docker, with
-                projects available on GitHub and a portfolio including projects like
-                an application for the hamburger restaurant Art Burger, a project
-                for a civil engineering company with a customizable panel, blog,
-                etc., a tech-focused TI forum, and a physical store marketplace
-                called Fluxplaces.
+                Graduated in Systems Analysis and Development from FATEC and currently studying English at Influx, I worked as a front-end developer on the animal adoption TCC project and at Performa.ai, focusing on e-commerce integrations. I have learned Next.js, GraphQL, AWS, and Docker, with projects available on GitHub. My portfolio includes an app for Art Burger, a project for a civil engineering company with a customizable panel and blog, among others, as well as a tech-focused IT forum and a physical store called Fluxplaces.
               </>
             ) : (
               <>
-                Formado em Análise e Desenvolvimento de Sistemas pela FATEC, atualmente
-                estudando inglês na Influx, trabalhei como desenvolvedor front-end no
-                projeto de TCC de adoção de animais e na Performa.ai em integrações de
-                e-commerce, aprendendo Next.js, GraphQL, AWS e Docker, com projetos
-                disponíveis no GitHub e um portfólio que inclui projetos como um
-                aplicativo para o restaurante de hambúrguer Art Burger, um projeto para
-                uma empresa de engenharia civil com painel personalizável, blog, etc., um
-                fórum de TI focado em tecnologia e um marketplace de lojas físicas chamado
-                Fluxplaces.
+                Formado em Análise e Desenvolvimento de Sistemas pela FATEC e atualmente cursando Inglês na Influx, atuei como desenvolvedor front-end no projeto TCC de adoção de animais e na Performa.ai, realizando integrações de e-commerce. Aprendi Next.js, GraphQL, AWS e Docker, e tenho projetos disponíveis no GitHub. Meu portfólio inclui um aplicativo para a hamburgueria Art Burger, um projeto para uma empresa de engenharia civil com painel customizável, blog, entre outros, além de um fórum de TI focado em tecnologia e uma loja física chamada Fluxplaces.
               </>
             )}
           </p>

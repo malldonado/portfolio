@@ -16,7 +16,7 @@ This portfolio is a showcase of my recent work and web development skills. Each 
 
 ## Installation and Usage
 To explore my portfolio locally:
-1. Clone the repository: `git clone https://github.com/your-username/portfolio.git`
+1. Clone the repository: `git clone https://github.com/malldonado/portfolio.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
 4. Open your browser and visit `http://localhost:3000`

@@ -32,7 +32,7 @@ function About({ language }: Props) {
                 Graduated in Systems Analysis and Development from FATEC and
                 currently studying English at Influx, I worked as a front-end
                 developer on the TCC project for animal adoption. At
-                Performa.ai, I worked as a Full Stack developer, integrating
+                Performa.ai, I worked as a Full Stack Developer, integrating
                 virtual stores from various e-commerce platforms. I am
                 constantly studying, learning Next.js, GraphQL, AWS, and Docker,
                 and contributing to projects on my GitHub. My portfolio includes
@@ -46,7 +46,7 @@ function About({ language }: Props) {
                 Formado em Análise e Desenvolvimento de Sistemas pela FATEC e
                 atualmente cursando Inglês na Influx, atuei como desenvolvedor
                 front-end no projeto TCC de adoção de animais. No Performa.ai,
-                trabalhei como Full Stack realizando integrações de lojas
+                trabalhei como Desenvolvedor Full Stack realizando integrações de lojas
                 virtuais de várias plataformas de ecommerce. Estou sempre em
                 constante estudo, aprendendo Next.js, GraphQL, AWS e Docker,
                 além de contribuir para projetos disponíveis no meu GitHub. Meu

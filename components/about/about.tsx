@@ -29,32 +29,17 @@ function About({ language }: Props) {
           <p className="text-lg sm:text-2xl">
             {language === "en" ? (
               <>
-                Graduated in Systems Analysis and Development from FATEC and
-                currently studying English at Influx, I worked as a front-end
-                developer on the TCC project for animal adoption. At
-                Performa.ai, I worked as a Full Stack Developer, integrating
-                virtual stores from various e-commerce platforms. I am
-                constantly studying, learning Next.js, GraphQL, AWS, and Docker,
-                and contributing to projects on my GitHub. My portfolio includes
-                an app for Art Burger hamburger shop, a customizable panel
-                project for civil engineering company GTM Engenharia, a blog,
-                among others, and an application called Fluxplaces that locates
-                nearby stores and products for users.
+                I graduated in Systems Analysis and Development from FATEC and am currently improving my English at Influx. My journey includes experience as a front-end developer on a thesis project focused on pet adoption, and as a Full Stack Developer at Performa.ai, where I integrated virtual stores from various ecommerce platforms. I am continually studying new technologies such as Next.js, GraphQL, AWS, and Docker, and actively contribute to projects on my GitHub.
+                <br />
+                <br />
+                My portfolio is diverse, featuring an application for Art Burger, which includes an admin panel for customizing burger menus and managing purchase orders. I also developed a website for GTM Engenharia, featuring functionalities for quote requests and a corporate blog. Additionally, I created Admmiz, a robust inventory management system providing detailed control over suppliers, customers, categories, products, purchases, invoices, and stock. Another notable project is Fluxplaces, a marketplace that connects users to nearby physical stores, facilitating access to a variety of products.
               </>
             ) : (
               <>
-                Formado em Análise e Desenvolvimento de Sistemas pela FATEC e
-                atualmente cursando Inglês na Influx, atuei como desenvolvedor
-                front-end no projeto TCC de adoção de animais. No Performa.ai,
-                trabalhei como Desenvolvedor Full Stack realizando integrações de lojas
-                virtuais de várias plataformas de ecommerce. Estou sempre em
-                constante estudo, aprendendo Next.js, GraphQL, AWS e Docker,
-                além de contribuir para projetos disponíveis no meu GitHub. Meu
-                portfólio inclui um aplicativo para a hamburgueria Art Burger,
-                um projeto para a empresa de engenharia civil GTM Engenharia com
-                painel customizável, blog, entre outros, e uma aplicação que
-                localiza lojas e produtos próximos ao usuário, chamada
-                Fluxplaces.
+                Sou formado em Análise e Desenvolvimento de Sistemas pela FATEC e atualmente estou aprimorando meu inglês na Influx. Minha trajetória inclui experiência como desenvolvedor front-end em um projeto de TCC focado na adoção de animais, e como Desenvolvedor Full Stack na Performa.ai, onde integrei lojas virtuais de diversas plataformas de ecommerce. Estou constantemente estudando novas tecnologias como Next.js, GraphQL, AWS e Docker, e contribuo ativamente para projetos no meu GitHub.
+                <br />
+                <br />
+                Meu portfólio é diversificado, destacando-se a aplicação para a hamburgueria Art Burger, que possui um painel administrativo para personalização do menu de hambúrgueres e gestão de pedidos de compra. Também desenvolvi um site para a GTM Engenharia, com funcionalidades para solicitação de orçamentos e um blog corporativo. Além disso, criei o Admmiz, um robusto sistema de gerenciamento de estoque que oferece controle detalhado de fornecedores, clientes, categorias, produtos, compras, faturas e estoque. Outro projeto significativo é o Fluxplaces, um marketplace que conecta usuários a lojas físicas próximas, permitindo acesso a uma variedade de produtos.
               </>
             )}
           </p>

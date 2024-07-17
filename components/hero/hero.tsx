@@ -29,21 +29,21 @@ function Hero({ language }: Props) {
           isHeadVisible ? "slide-in-head visible" : "slide-in-head"
         }`}
       >
-        <div>
-          <span className="text-xl md:text-4xl">
+        <div className="pr-4 md:pr-0">
+          <span className="text-xl md:text-4xl pr-4">
             <p>
               {language === "en"
                 ? "I’m a dedicated full stack developer, passionate about challenges and always eager to tackle new projects, bringing innovative ideas to life."
                 : "Sou um desenvolvedor full stack dedicado, apaixonado por desafios e sempre ansioso para enfrentar novos projetos, trazendo ideias inovadoras à vida."}
             </p>
           </span>
-          <h1 className="mt-10 text-6xl md:text-[150px] ml-0 md:ml-[-5px]">
+          <h1 className="mt-10 text-5xl md:text-[150px] ml-0 md:ml-[-5px]">
             {language === "en" ? "Developer" : "Desenvolvedor"} <br />
             Full-Stack
           </h1>
         </div>
       </div>
-      <button className="text-white text-sm border border-white px-4 py-4 w-44 md:w-36 mt-10 lg:mt-0 flex items-center justify-center md:justify-start hover:text-black hover:bg-white">
+      <button className="text-white text-sm border border-white px-4 py-4 w-36 md:w-36 mt-10 lg:mt-0 flex items-center justify-center md:justify-start hover:text-black hover:bg-white">
         <MdOutlineEmail className="text-xl mr-2" />
         <a href="mailto:matheusmaldonadosilva@outlook.com" target="_blank">
           {language === "en" ? "Contact Me" : "Contato"}

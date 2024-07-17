@@ -7,21 +7,22 @@ import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
 
 const logos = [
-  { src: '/logos/1.svg', alt: 'Logo 1' },
-  { src: '/logos/2.svg', alt: 'Logo 2' },
-  { src: '/logos/3.svg', alt: 'Logo 3' },
-  { src: '/logos/4.svg', alt: 'Logo 4' },
-  { src: '/logos/5.svg', alt: 'Logo 5' },
-  { src: '/logos/6.svg', alt: 'Logo 6' },
-  { src: '/logos/7.svg', alt: 'Logo 7' },
-  { src: '/logos/8.svg', alt: 'Logo 8' },
-  { src: '/logos/9.svg', alt: 'Logo 9' },
-  { src: '/logos/10.svg', alt: 'Logo 10' },
-  { src: '/logos/11.svg', alt: 'Logo 11' },
-  { src: '/logos/12.svg', alt: 'Logo 12' },
-  { src: '/logos/13.svg', alt: 'Logo 13' },
-  { src: '/logos/14.svg', alt: 'Logo 14' },
-  { src: '/logos/15.svg', alt: 'Logo 15' },
+  { src: '/logos/1.svg', alt: 'html' },
+  { src: '/logos/2.svg', alt: 'css' },
+  { src: '/logos/3.svg', alt: 'js' },
+  { src: '/logos/4.svg', alt: 'sass' },
+  { src: '/logos/5.svg', alt: 'tailwind' },
+  { src: '/logos/6.svg', alt: 'bootstrap' },
+  { src: '/logos/7.svg', alt: 'react' },
+  { src: '/logos/8.svg', alt: 'next' },
+  { src: '/logos/9.svg', alt: 'vue' },
+  { src: '/logos/10.svg', alt: 'nodejs' },
+  { src: '/logos/16.svg', alt: 'nest' },
+  { src: '/logos/11.svg', alt: 'typescript' },
+  { src: '/logos/12.svg', alt: 'php' },
+  { src: '/logos/13.svg', alt: 'git' },
+  { src: '/logos/14.svg', alt: 'mysql' },
+  { src: '/logos/15.svg', alt: 'mongodb' },
 ];
 
 const settings = {

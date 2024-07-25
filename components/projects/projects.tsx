@@ -18,9 +18,9 @@ const Projects: React.FC<Props> = ({ language }) => {
       id: 1,
       image: "/projects/5.png",
       text_en:
-        "Admmiz is an inventory management system that includes the management of suppliers, customers, units, categories, products, purchases, invoices, and stock. Developed with ReactJS using Vite and styled with TailwindCSS, its backend is built in TypeScript using the Nest framework and TypeORM, with PostgreSQL as the database.",
+        "Admmiz is an inventory management system that encompasses the management of suppliers, clients, units, categories, products, purchases, invoices, and stock. Developed with ReactJS and Next.js, the frontend is styled with TailwindCSS and uses TypeScript to ensure greater security and scalability. The backend, implemented with TypeScript and NestJS, uses a MySQL database to efficiently manage user data.",
       text_pt:
-        "Admmiz é um sistema de gerenciamento de estoque que inclui gestão de fornecedores, clientes, unidades, categorias, produtos, compras, faturas e estoque. Desenvolvido com ReactJS usando Vite e estilizado com TailwindCSS, seu backend é construído em TypeScript utilizando o framework Nest e TypeORM, com PostgreSQL como banco de dados.",
+        "Admmiz é um sistema de gerenciamento de estoque que abrange a gestão de fornecedores, clientes, unidades, categorias, produtos, compras, faturas e estoque. Desenvolvido com ReactJS e Next.js, o frontend é estilizado com TailwindCSS e utiliza TypeScript para garantir maior segurança e escalabilidade. No backend, implementado com TypeScript e NestJS, utiliza um banco de dados MySQL para gerenciar eficientemente os dados dos usuários.",
     },
     {
       id: 2,
@@ -34,18 +34,18 @@ const Projects: React.FC<Props> = ({ language }) => {
       id: 3,
       image: "/projects/2.png",
       text_en:
-        "The Art Burger application is a dynamic website developed for a gourmet burger joint. Built using ReactJS with Vite and styled with TailwindCSS, it allows users to explore gourmet burger promotions and an extensive menu. Customers can purchase burgers and make integrated credit card payments via MercadoPago, with transaction details accessible through a user dashboard. This dashboard provides comprehensive user information, order placement options, and order history. With support from Node.js and MongoDB, the application ensures efficient data management and a seamless experience for burger enthusiasts.",
+        "The Art Burger application is a dynamic website for a gourmet burger restaurant, developed with ReactJS and Vite, styled with TailwindCSS. It allows users to explore promotions, access an extensive menu, and make credit card payments via MercadoPago. The user panel offers transaction details, ordering options, and purchase history. The back-end uses ExpressJS, TypeScript, TypeORM, PostgreSQL, and Redis to ensure efficient data management and a smooth experience.",
       text_pt:
-        "A aplicação Art Burger é um site dinâmico desenvolvido para uma hamburgueria gourmet. Utilizando ReactJS com Vite e estilizado com TailwindCSS, ele permite aos usuários explorar promoções de hambúrgueres gourmet e um extenso menu. Os clientes podem comprar hambúrgueres e realizar pagamentos integrados com cartão de crédito via MercadoPago, com detalhes da transação acessíveis através de um painel do usuário. Esse painel oferece informações completas do usuário, opções para fazer pedidos e histórico de compras anteriores. Com suporte de Node.js e MongoDB, a aplicação assegura o gerenciamento eficiente de dados e uma experiência fluida para os entusiastas de hambúrgueres.",
+        "A aplicação Art Burger é um site dinâmico para uma hamburgueria gourmet, desenvolvido com ReactJS e Vite, estilizado com TailwindCSS. Ele permite aos usuários explorar promoções, acessar um extenso menu e realizar pagamentos com cartão de crédito via MercadoPago. O painel do usuário oferece detalhes de transações, opções de pedidos e histórico de compras. O back-end usa ExpressJS, TypeScript, TypeORM, PostgreSQL e Redis para garantir um gerenciamento eficiente de dados e uma experiência fluida.",
     },
-    {
-      id: 4,
-      image: "/projects/4.png",
-      text_en:
-        "Fluxplaces marketplace is an innovative application that connects users with physical stores via Google Maps, enabling them to locate desired products within a specified radius, complete with promotions and coupons. Developed using ReactJS with Next.js and styled with TailwindCSS, the frontend incorporates TypeScript for enhanced security and scalability. In the backend, ASP.NET, using the Google Maps API combined with SQL, provides a robust foundation for the application, efficiently managing user data, store information, and transactions.",
-      text_pt:
-        "Fluxplaces marketplace é uma aplicação inovadora que conecta usuários a lojas físicas via Google Maps, permitindo localizar produtos desejados dentro de um raio especificado, com promoções e cupons. Desenvolvida usando ReactJS com Next.js e estilizada com TailwindCSS, o frontend incorpora TypeScript para maior segurança e escalabilidade. No backend, ASP.NET, utilizando a API do Google Maps combinada com SQL, fornece uma base robusta para a aplicação, gerenciando eficientemente dados de usuários, informações de lojas e transações.",
-    }
+    // {
+    //   id: 4,
+    //   image: "/projects/4.png",
+    //   text_en:
+    //     "Fluxplaces Marketplace is an innovative application that connects users to physical stores via Google Maps, allowing them to locate desired products within a specified radius, along with promotions and coupons. Developed with ReactJS and Next.js and styled with TailwindCSS, the frontend utilizes TypeScript for enhanced security and scalability. On the backend, implemented with TypeScript and NestJS, the application leverages the Google Maps API and a MySQL database to efficiently manage user data, store information, and transactions.",
+    //   text_pt:
+    //     "Fluxplaces Marketplace é uma aplicação inovadora que conecta usuários a lojas físicas via Google Maps, permitindo localizar produtos desejados dentro de um raio especificado, com promoções e cupons. Desenvolvida com ReactJS e Next.js e estilizada com TailwindCSS, o frontend utiliza TypeScript para maior segurança e escalabilidade. No backend, implementado com TypeScript e NestJS, a aplicação utiliza a API do Google Maps e um banco de dados MySQL para gerenciar eficientemente os dados dos usuários, informações das lojas e transações.",
+    // }
   ];
 
   return (

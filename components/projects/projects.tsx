@@ -16,14 +16,6 @@ const Projects: React.FC<Props> = ({ language }) => {
   const projects = [
     {
       id: 1,
-      image: "/projects/5.png",
-      text_en:
-        "Admmiz is an inventory management system that encompasses the management of suppliers, clients, units, categories, products, purchases, invoices, and stock. Developed with ReactJS and Next.js, the frontend is styled with TailwindCSS and uses TypeScript to ensure greater security and scalability. The backend, implemented with TypeScript and NestJS, uses a MySQL database to efficiently manage user data.",
-      text_pt:
-        "Admmiz é um sistema de gerenciamento de estoque que abrange a gestão de fornecedores, clientes, unidades, categorias, produtos, compras, faturas e estoque. Desenvolvido com ReactJS e Next.js, o frontend é estilizado com TailwindCSS e utiliza TypeScript para garantir maior segurança e escalabilidade. No backend, implementado com TypeScript e NestJS, utiliza um banco de dados MySQL para gerenciar eficientemente os dados dos usuários.",
-    },
-    {
-      id: 2,
       image: "/projects/1.png",
       text_en:
         "The GTM Engenharia project is a web application developed for the civil engineering company GTM Engenharia. It uses ReactJS with Vite and TailwindCSS on the frontend, and Node.js with MongoDB on the backend, making the site highly customizable. The application includes an admin panel that allows administrators to modify information, manage completed projects, and handle budget and contact requests. Additionally, an integrated blog showcases all the company's projects, facilitating direct communication with clients.",
@@ -31,12 +23,20 @@ const Projects: React.FC<Props> = ({ language }) => {
         "O projeto GTM Engenharia é uma aplicação web desenvolvida para a empresa de engenharia civil GTM Engenharia. Utilizando ReactJS com Vite e TailwindCSS no frontend e Node.js com MongoDB no backend, o site é altamente personalizável. Ele inclui um painel administrativo que permite aos administradores modificar informações, gerenciar projetos concluídos e lidar com solicitações de orçamento e contato. Além disso, um blog integrado destaca todos os projetos da empresa, facilitando a comunicação direta com os clientes.",
     },
     {
-      id: 3,
+      id: 2,
       image: "/projects/2.png",
       text_en:
         "The Art Burger application is a dynamic website for a gourmet burger restaurant, developed with ReactJS and Vite, styled with TailwindCSS. It allows users to explore promotions, access an extensive menu, and make credit card payments via MercadoPago. The user panel offers transaction details, ordering options, and purchase history. The back-end uses ExpressJS, TypeScript, TypeORM, PostgreSQL, and Redis to ensure efficient data management and a smooth experience.",
       text_pt:
         "A aplicação Art Burger é um site dinâmico para uma hamburgueria gourmet, desenvolvido com ReactJS e Vite, estilizado com TailwindCSS. Ele permite aos usuários explorar promoções, acessar um extenso menu e realizar pagamentos com cartão de crédito via MercadoPago. O painel do usuário oferece detalhes de transações, opções de pedidos e histórico de compras. O back-end usa ExpressJS, TypeScript, TypeORM, PostgreSQL e Redis para garantir um gerenciamento eficiente de dados e uma experiência fluida.",
+    },
+    {
+      id: 3,
+      image: "/projects/5.png",
+      text_en:
+        "Admmiz is an inventory management system that encompasses the management of suppliers, clients, units, categories, products, purchases, invoices, and stock. Developed with ReactJS and Next.js, the frontend is styled with TailwindCSS and uses TypeScript to ensure greater security and scalability. The backend, implemented with TypeScript and NestJS, uses a MySQL database to efficiently manage user data.",
+      text_pt:
+        "Admmiz é um sistema de gerenciamento de estoque que abrange a gestão de fornecedores, clientes, unidades, categorias, produtos, compras, faturas e estoque. Desenvolvido com ReactJS e Next.js, o frontend é estilizado com TailwindCSS e utiliza TypeScript para garantir maior segurança e escalabilidade. No backend, implementado com TypeScript e NestJS, utiliza um banco de dados MySQL para gerenciar eficientemente os dados dos usuários.",
     },
     // {
     //   id: 4,

@@ -17,6 +17,7 @@ const Projects: React.FC<Props> = ({ language }) => {
     {
       id: 1,
       image: "/projects/1.png",
+      project_name: 'GTM Engenharia',
       text_en:
         "The GTM Engenharia project is a web application developed for the civil engineering company GTM Engenharia. It uses ReactJS with Vite and TailwindCSS on the frontend, and Node.js with MongoDB on the backend, making the site highly customizable. The application includes an admin panel that allows administrators to modify information, manage completed projects, and handle budget and contact requests. Additionally, an integrated blog showcases all the company's projects, facilitating direct communication with clients.",
       text_pt:
@@ -25,21 +26,32 @@ const Projects: React.FC<Props> = ({ language }) => {
     {
       id: 2,
       image: "/projects/2.png",
+      project_name: 'Art Burger',
       text_en:
-        "The Art Burger application is a dynamic website for a gourmet burger restaurant, developed with ReactJS and Vite, styled with TailwindCSS. It allows users to explore promotions, access an extensive menu, and make credit card payments via MercadoPago. The user panel offers transaction details, ordering options, and purchase history. The back-end uses ExpressJS, TypeScript, TypeORM, PostgreSQL, and Redis to ensure efficient data management and a smooth experience.",
+        "The Art Burger application is a dynamic website for a gourmet burger restaurant, developed with ReactJS and Vite, styled with TailwindCSS. It allows users to explore promotions, access an extensive menu, and make credit card payments via MercadoPago. The user panel offers transaction details, ordering options, and purchase history. The back-end is powered by ExpressJS, TypeScript, and Knex with PostgreSQL.",
       text_pt:
-        "A aplicação Art Burger é um site dinâmico para uma hamburgueria gourmet, desenvolvido com ReactJS e Vite, estilizado com TailwindCSS. Ele permite aos usuários explorar promoções, acessar um extenso menu e realizar pagamentos com cartão de crédito via MercadoPago. O painel do usuário oferece detalhes de transações, opções de pedidos e histórico de compras. O back-end usa ExpressJS, TypeScript, TypeORM, PostgreSQL e Redis para garantir um gerenciamento eficiente de dados e uma experiência fluida.",
+        "A aplicação Art Burger é um site dinâmico para um restaurante de hambúrgueres gourmet, desenvolvido com ReactJS e Vite, estilizado com TailwindCSS. Ela permite aos usuários explorar promoções, acessar um menu extenso e realizar pagamentos com cartão de crédito via MercadoPago. O painel do usuário oferece detalhes de transações, opções de pedidos e histórico de compras. O back-end é alimentado por ExpressJS, TypeScript e Knex com PostgreSQL.",
     },
     {
       id: 3,
       image: "/projects/5.png",
+      project_name: 'Admmiz',
       text_en:
         "Admmiz is an inventory management system that encompasses the management of suppliers, clients, units, categories, products, purchases, invoices, and stock. Developed with ReactJS and Next.js, the frontend is styled with TailwindCSS and uses TypeScript to ensure greater security and scalability. The backend, implemented with TypeScript and NestJS, uses a MySQL database to efficiently manage user data.",
       text_pt:
         "Admmiz é um sistema de gerenciamento de estoque que abrange a gestão de fornecedores, clientes, unidades, categorias, produtos, compras, faturas e estoque. Desenvolvido com ReactJS e Next.js, o frontend é estilizado com TailwindCSS e utiliza TypeScript para garantir maior segurança e escalabilidade. No backend, implementado com TypeScript e NestJS, utiliza um banco de dados MySQL para gerenciar eficientemente os dados dos usuários.",
     },
+    {
+      id: 5,
+      image: "/projects/3.png",
+      project_name: 'Desenvolve',
+      text_en:
+        "A forum tailored for developers, crafted with Vue.js and Nuxt.js for the frontend, styled with CSS for a responsive and modern design. The backend is developed in TypeScript, utilizing TypeORM for efficient database management, with Redis serving as a temporary database and PostgreSQL providing robust and reliable data storage.",
+      text_pt:
+        "Um fórum personalizado para desenvolvedores, criado com Vue.js e Nuxt.js para o frontend, estilizado com CSS para um design responsivo e moderno. O backend é desenvolvido em TypeScript, utilizando TypeORM para uma gestão eficiente de banco de dados, com Redis servindo como banco de dados temporário e PostgreSQL oferecendo armazenamento de dados robusto e confiável.",
+    },
     // {
-    //   id: 4,
+    //   id: 5,
     //   image: "/projects/4.png",
     //   text_en:
     //     "Fluxplaces Marketplace is an innovative application that connects users to physical stores via Google Maps, allowing them to locate desired products within a specified radius, along with promotions and coupons. Developed with ReactJS and Next.js and styled with TailwindCSS, the frontend utilizes TypeScript for enhanced security and scalability. On the backend, implemented with TypeScript and NestJS, the application leverages the Google Maps API and a MySQL database to efficiently manage user data, store information, and transactions.",
@@ -60,7 +72,7 @@ const Projects: React.FC<Props> = ({ language }) => {
           {language === "en" ? "Projects" : "Projetos"}
         </h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 md:gap-y-20 mx-auto max-w-7xl md:gap-x-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 md:gap-y-40 mx-auto max-w-7xl md:gap-x-8">
         {projects.map((project, index) => (
           <Project key={project.id} project={project} language={language} index={index} />
         ))}
@@ -75,6 +87,7 @@ interface ProjectProps {
     image: string;
     text_en: string;
     text_pt: string;
+    project_name: string;
   };
   language: string;
   index: number;
@@ -111,11 +124,12 @@ const Project: React.FC<ProjectProps> = ({ project, language, index }) => {
       {/* Container do texto */}
       <div
         ref={textRef}
-        className={`relative h-auto md:h-96 rounded-2xl overflow-hidden group cursor-pointer transition-opacity duration-1000 ease-in-out opacity-0 ${
+        className={`relative mt-8 mb-8 md:mb-0 md:mt-0 h-auto md:h-96 rounded-2xl overflow-hidden group cursor-pointer transition-opacity duration-1000 ease-in-out opacity-0 ${
           textInView ? "opacity-100" : ""
         }`}
       >
-        <span className="text-md sm:text-xl text-white flex items-start md:items-center h-full mt-6 mb-20 md:mt-0 md:mb-0">
+        <span className="text-white text-3xl">{project.project_name}</span>
+        <span className="text-md sm:text-xl text-white flex items-start md:items-center mt-2 mb-10 md:mt-8 md:mb-0">
           {language === "en" ? project.text_en : project.text_pt}
         </span>
       </div>

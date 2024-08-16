@@ -23,6 +23,7 @@ const logos = [
   { src: '/logos/13.svg', alt: 'git' },
   { src: '/logos/14.svg', alt: 'mysql' },
   { src: '/logos/15.svg', alt: 'mongodb' },
+  { src: '/logos/17.svg', alt: 'postgresql' },
 ];
 
 const settings = {
@@ -60,7 +61,7 @@ const settings = {
 
 const Skills: React.FC = () => {
   return (
-    <div className="text-white pt-24 sm:pt-32">
+    <div className="text-white md:pt-32 sm:pt-44">
       <div className="max-w-7xl mx-auto px-4 md:px-0">
         <div className="text-left">
           <h2 className="text-4xl sm:text-5xl lg:text-7xl leading-tight mb-6">

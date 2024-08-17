@@ -26,33 +26,33 @@ const Projects: React.FC<Props> = ({ language }) => {
     {
       id: 2,
       image: "/projects/2.png",
-      project_name: 'Art Burger',
-      text_en:
-        "The Art Burger application is a dynamic website for a gourmet burger restaurant, developed with ReactJS and Vite, styled with TailwindCSS. It allows users to explore promotions, access an extensive menu, and make credit card payments via MercadoPago. The user panel offers transaction details, ordering options, and purchase history. The back-end is powered by ExpressJS, TypeScript, and Knex with PostgreSQL.",
-      text_pt:
-        "A aplicação Art Burger é um site dinâmico para um restaurante de hambúrgueres gourmet, desenvolvido com ReactJS e Vite, estilizado com TailwindCSS. Ela permite aos usuários explorar promoções, acessar um menu extenso e realizar pagamentos com cartão de crédito via MercadoPago. O painel do usuário oferece detalhes de transações, opções de pedidos e histórico de compras. O back-end é alimentado por ExpressJS, TypeScript e Knex com PostgreSQL.",
-    },
-    {
-      id: 3,
-      image: "/projects/5.png",
-      project_name: 'Admmiz',
-      text_en:
-        "Admmiz is an inventory management system that encompasses the management of suppliers, clients, units, categories, products, purchases, invoices, and stock. Developed with ReactJS and Next.js, the frontend is styled with TailwindCSS and uses TypeScript to ensure greater security and scalability. The backend, implemented with TypeScript and NestJS, uses a MySQL database to efficiently manage user data.",
-      text_pt:
-        "Admmiz é um sistema de gerenciamento de estoque que abrange a gestão de fornecedores, clientes, unidades, categorias, produtos, compras, faturas e estoque. Desenvolvido com ReactJS e Next.js, o frontend é estilizado com TailwindCSS e utiliza TypeScript para garantir maior segurança e escalabilidade. No backend, implementado com TypeScript e NestJS, utiliza um banco de dados MySQL para gerenciar eficientemente os dados dos usuários.",
-    },
-    {
-      id: 5,
-      image: "/projects/3.png",
       project_name: 'Desenvolve',
       text_en:
         "A forum tailored for developers, crafted with Vue.js and Nuxt.js for the frontend, styled with CSS for a responsive and modern design. The backend is developed in TypeScript, utilizing TypeORM for efficient database management, with Redis serving as a temporary database and PostgreSQL providing robust and reliable data storage.",
       text_pt:
         "Um fórum personalizado para desenvolvedores, criado com Vue.js e Nuxt.js para o frontend, estilizado com CSS para um design responsivo e moderno. O backend é desenvolvido em TypeScript, utilizando TypeORM para uma gestão eficiente de banco de dados, com Redis servindo como banco de dados temporário e PostgreSQL oferecendo armazenamento de dados robusto e confiável.",
     },
+    {
+      id: 3,
+      image: "/projects/3.png",
+      project_name: 'Art Burger',
+      text_en:
+        "The Art Burger application is a dynamic website for a gourmet burger restaurant, developed with ReactJS and Vite, styled with TailwindCSS. It allows users to explore promotions, access an extensive menu, and make credit card payments via MercadoPago. The user panel offers transaction details, ordering options, and purchase history. The back-end is powered by TypeScript, and Knex with PostgreSQL.",
+      text_pt:
+        "A aplicação Art Burger é um site dinâmico para um restaurante de hambúrgueres gourmet, desenvolvido com ReactJS e Vite, estilizado com TailwindCSS. Ela permite aos usuários explorar promoções, acessar um menu extenso e realizar pagamentos com cartão de crédito via MercadoPago. O painel do usuário oferece detalhes de transações, opções de pedidos e histórico de compras. O back-end é alimentado por TypeScript e Knex com PostgreSQL.",
+    },
+    {
+      id: 4,
+      image: "/projects/4.png",
+      project_name: 'Admmiz',
+      text_en:
+        "Admmiz is an inventory management system that encompasses the management of suppliers, clients, units, categories, products, purchases, invoices, and stock. Developed with ReactJS and Next.js, the frontend is styled with TailwindCSS and uses TypeScript to ensure greater security and scalability. The backend, implemented with TypeScript and NestJS, uses a MySQL database to efficiently manage user data.",
+      text_pt:
+        "Admmiz é um sistema de gerenciamento de estoque que abrange a gestão de fornecedores, clientes, unidades, categorias, produtos, compras, faturas e estoque. Desenvolvido com ReactJS e Next.js, o frontend é estilizado com TailwindCSS e utiliza TypeScript para garantir maior segurança e escalabilidade. No backend, implementado com TypeScript e NestJS, utiliza um banco de dados MySQL para gerenciar eficientemente os dados dos usuários.",
+    },
     // {
     //   id: 5,
-    //   image: "/projects/4.png",
+    //   image: "/projects/5.png",
     //   text_en:
     //     "Fluxplaces Marketplace is an innovative application that connects users to physical stores via Google Maps, allowing them to locate desired products within a specified radius, along with promotions and coupons. Developed with ReactJS and Next.js and styled with TailwindCSS, the frontend utilizes TypeScript for enhanced security and scalability. On the backend, implemented with TypeScript and NestJS, the application leverages the Google Maps API and a MySQL database to efficiently manage user data, store information, and transactions.",
     //   text_pt:

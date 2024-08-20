@@ -63,9 +63,9 @@ const Projects: React.FC<Props> = ({ language }) => {
       image: "/projects/5.png",
       project_name: "Fluxplaces",
       text_en:
-        "Fluxplaces Marketplace is an application that helps users locate nearby stores using Google Maps, allowing them to find products within a specified radius, along with promotions and discounts. The frontend is developed with ReactJS and Next.js, styled with TailwindCSS, and uses TypeScript for enhanced security and scalability. On the backend, built with TypeScript and GraphQL, the application integrates the MercadoPago gateway and uses MySQL on Google Cloud to manage user data, store information, and transactions.",
+        "Fluxplaces Marketplace is an application that helps users locate nearby stores using the Google Maps API, allowing them to find products within a specified radius, along with promotions and discounts. The frontend is developed with ReactJS and Next.js, styled with TailwindCSS, and uses TypeScript for enhanced security and scalability. On the backend, built with Python and Django, the application integrates the MercadoPago gateway and uses MySQL on Cloudinary to manage user data, store information, and transactions.",
       text_pt:
-        "Fluxplaces Marketplace é uma aplicação que ajuda os usuários a localizar lojas próximas usando o Google Maps, permitindo encontrar produtos dentro de um determinado raio, junto com promoções e descontos. O frontend é desenvolvido com ReactJS e Next.js, estilizado com TailwindCSS e utiliza TypeScript para maior segurança e escalabilidade. No backend, construído com TypeScript e GraphQL, a aplicação integra o gateway MercadoPago e utiliza MySQL no Google Cloud para gerenciar dados dos usuários, informações das lojas e transações.",
+        "Fluxplaces Marketplace é uma aplicação que ajuda os usuários a encontrar lojas próximas usando a API do Google Maps, permitindo-lhes localizar produtos dentro de um raio especificado, além de promoções e descontos. O frontend é desenvolvido com ReactJS e Next.js, estilizado com TailwindCSS, e utiliza TypeScript para maior segurança e escalabilidade. No backend, construído com Python e Django, a aplicação integra o gateway MercadoPago e utiliza MySQL no Cloudinary para gerenciar dados de usuários, informações das lojas e transações.",
     },
   ];
 

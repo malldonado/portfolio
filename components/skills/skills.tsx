@@ -24,7 +24,9 @@ const logos = [
   { src: '/logos/14.svg', alt: 'mysql' },
   { src: '/logos/15.svg', alt: 'mongodb' },
   { src: '/logos/17.svg', alt: 'postgresql' },
-  { src: '/logos/18.svg', alt: 'graphql' },
+  // { src: '/logos/18.svg', alt: 'graphql' },
+  { src: '/logos/19.svg', alt: 'python' },
+  { src: '/logos/20.svg', alt: 'django' },
 ];
 
 const settings = {

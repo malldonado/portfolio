@@ -28,7 +28,7 @@ const Navbar: React.FC<NavbarProps> = ({ setLanguage }) => {
       </span>
       <div className="text-white md:text-[25px] text-[20px] flex md:space-x-5 space-x-3">
         <NavItem
-          href="https://www.linkedin.com/in/matheusmaldonadosilva"
+          href="https://www.linkedin.com/in/malldonado"
           icon={<SiLinkedin />}
         />
         <NavItem

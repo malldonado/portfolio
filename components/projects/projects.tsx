@@ -45,9 +45,9 @@ const Projects: React.FC<Props> = ({ language }) => {
       image: "/projects/3.png",
       project_name: "Desenvolve",
       text_en:
-        "A forum tailored for developers, crafted with Vue.js and Nuxt.js for the frontend, styled with CSS for a responsive and modern design. The backend is developed in TypeScript, utilizing TypeORM for efficient database management, with Redis serving as a temporary database and PostgreSQL providing robust and reliable data storage.",
+        "A forum tailored for developers, crafted with Vue.js for the frontend, styled with CSS for a responsive and modern design. The backend is developed in TypeScript, utilizing TypeORM for efficient database management, with Redis serving as a temporary database and PostgreSQL providing robust and reliable data storage.",
       text_pt:
-        "Um fórum personalizado para desenvolvedores, criado com Vue.js e Nuxt.js para o frontend, estilizado com CSS para um design responsivo e moderno. O backend é desenvolvido em TypeScript, utilizando TypeORM para uma gestão eficiente de banco de dados, com Redis servindo como banco de dados temporário e PostgreSQL oferecendo armazenamento de dados robusto e confiável.",
+        "Um fórum personalizado para desenvolvedores, criado com Vue.js para o frontend, estilizado com CSS para um design responsivo e moderno. O backend é desenvolvido em TypeScript, utilizando TypeORM para uma gestão eficiente de banco de dados, com Redis servindo como banco de dados temporário e PostgreSQL oferecendo armazenamento de dados robusto e confiável.",
     },
     {
       id: 4,

@@ -48,7 +48,7 @@ const Navbar: React.FC<NavbarProps> = ({ setLanguage }) => {
           className="cursor-pointer flex items-end w-[50px]"
           onClick={toggleLanguage}
         >
-          <p className="text-sm mr-2 text-center">{currentLanguage === "en" ? "PT" : "EN"}</p>
+          <p className="text-sm mr-2 text-center">{currentLanguage !== "en" ? "PT" : "EN"}</p>
           <GrLanguage />
         </a>
       </div>

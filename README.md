@@ -1,4 +1,4 @@
-# Developer Portfolio
+<!-- # Developer Portfolio
 
 👨‍💻 My Next.js portfolio, powered by TypeScript and Tailwind CSS, elegantly presents my crafted projects, each reflecting my dedication and expertise. Through seamless design and efficient development, it showcases my journey and achievements.
 
@@ -32,4 +32,4 @@ To deploy your own portfolio on Vercel:
 Contributions are welcome! Feel free to fork this project and submit pull requests with improvements.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE). -->

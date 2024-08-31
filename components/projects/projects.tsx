@@ -27,45 +27,45 @@ const Projects: React.FC<Props> = ({ language }) => {
       image: "/projects/1.png",
       project_name: "Admmiz",
       text_en:
-        "Admmiz is an inventory management system that encompasses the management of suppliers, clients, units, categories, products, purchases, invoices, and stock. Developed with ReactJS and Next.js, the frontend is styled with TailwindCSS and uses TypeScript to ensure greater security and scalability. The backend, implemented with TypeScript and NestJS, uses a MySQL database to efficiently manage user data.",
+        "Admmiz is an inventory management system that encompasses the management of suppliers, clients, units, categories, products, purchases, invoices, and stock. The frontend is developed with ReactJS, Next.js, and TailwindCSS, utilizing TypeScript to ensure security and scalability. On the backend, the system is implemented with Node.js, NestJS, and Fastify, following practices such as DDD and Clean Architecture. The system uses Prisma as the ORM and PostgreSQL as the database, managed by Docker Compose, and is hosted on AWS for efficient data administration.",
       text_pt:
-        "Admmiz é um sistema de gerenciamento de estoque que abrange a gestão de fornecedores, clientes, unidades, categorias, produtos, compras, faturas e estoque. Desenvolvido com ReactJS e Next.js, o frontend é estilizado com TailwindCSS e utiliza TypeScript para garantir maior segurança e escalabilidade. No backend, implementado com TypeScript e NestJS, utiliza um banco de dados MySQL para gerenciar eficientemente os dados dos usuários.",
+        "Admmiz é um sistema de gerenciamento de estoque que abrange a gestão de fornecedores, clientes, unidades, categorias, produtos, compras, faturas e estoque. O frontend é desenvolvido com ReactJS, Next.js e TailwindCSS, utilizando TypeScript para garantir segurança e escalabilidade. No backend, o sistema é implementado com Node.js, NestJS e Fastify, seguindo práticas como DDD e Clean Architecture. O sistema utiliza Prisma como ORM e PostgreSQL como banco de dados, gerenciados por Docker Compose, e é hospedado na AWS para uma administração eficiente dos dados.",
     },
     {
       id: 2,
       image: "/projects/2.png",
       project_name: "Art Burger",
       text_en:
-        "The Art Burger application is a dynamic website for a gourmet burger restaurant, developed with ReactJS and Vite, styled with TailwindCSS. It allows users to explore promotions, access an extensive menu, and make credit card payments via MercadoPago. The user panel offers transaction details, ordering options, and purchase history. The back-end is powered by TypeScript, and Knex with PostgreSQL.",
+        "Art Burger is an interactive website for a gourmet burger restaurant, developed with ReactJS and Vite, and styled with TailwindCSS. Users can explore promotions, access an extensive menu, and make credit card payments through MercadoPago. The user panel provides transaction details, ordering options, and purchase history. The back end is powered by TypeScript with Node.js and Knex, using MySQL as the database, managed by Docker, and hosted on AWS.",
       text_pt:
-        "A aplicação Art Burger é um site dinâmico para um restaurante de hambúrgueres gourmet, desenvolvido com ReactJS e Vite, estilizado com TailwindCSS. Ela permite aos usuários explorar promoções, acessar um menu extenso e realizar pagamentos com cartão de crédito via MercadoPago. O painel do usuário oferece detalhes de transações, opções de pedidos e histórico de compras. O back-end é alimentado por TypeScript e Knex com PostgreSQL.",
+        "A aplicação Art Burger é um site interativo para um restaurante de hambúrgueres gourmet, desenvolvido com ReactJS e Vite e estilizado com TailwindCSS. Os usuários podem explorar promoções, acessar um menu extenso e realizar pagamentos com cartão de crédito via MercadoPago. O painel do usuário oferece detalhes de transações, opções de pedidos e histórico de compras. O back-end é desenvolvido em TypeScript com Node.js e Knex, utilizando MySQL como banco de dados, gerenciado por Docker e hospedado na AWS.",
     },
     {
       id: 3,
       image: "/projects/3.png",
       project_name: "Desenvolve",
       text_en:
-        "A forum tailored for developers, crafted with Vue.js for the frontend, styled with CSS for a responsive and modern design. The backend is developed in TypeScript, utilizing TypeORM for efficient database management, with Redis serving as a temporary database and PostgreSQL providing robust and reliable data storage.",
+        "A custom forum for developers, featuring a frontend built with Vue.js that offers a modern and responsive interface, styled with CSS. The backend is developed in TypeScript with Node.js, using TypeORM for efficient database management. Redis is utilized for temporary storage, while PostgreSQL provides robust and reliable storage. Data validation is handled with Celebrate, and the application is containerized with Docker for easier management and scalability, and hosted on AWS.",
       text_pt:
-        "Um fórum personalizado para desenvolvedores, criado com Vue.js para o frontend, estilizado com CSS para um design responsivo e moderno. O backend é desenvolvido em TypeScript, utilizando TypeORM para uma gestão eficiente de banco de dados, com Redis servindo como banco de dados temporário e PostgreSQL oferecendo armazenamento de dados robusto e confiável.",
+        "Um fórum personalizado para desenvolvedores, com um frontend em Vue.js que oferece uma interface moderna e responsiva, estilizada com CSS. O back-end é desenvolvido em TypeScript com Node.js, utilizando TypeORM para gerenciamento eficiente do banco de dados. Redis é empregado para armazenamento temporário, enquanto PostgreSQL é usado para armazenamento robusto e confiável. A validação de dados é realizada com Celebrate, e a aplicação é containerizada com Docker para facilitar o gerenciamento, a escalabilidade, e hospedada na AWS.",
     },
     {
       id: 4,
       image: "/projects/4.png",
       project_name: "GTM Engenharia",
       text_en:
-        "The GTM Engenharia project is a web application developed for the civil engineering company GTM Engenharia. It uses ReactJS with Vite and TailwindCSS on the frontend, and Node.js with MongoDB on the backend, making the site highly customizable. The application includes an admin panel that allows administrators to modify information, manage completed projects, and handle budget and contact requests. Additionally, an integrated blog showcases all the company's projects, facilitating direct communication with clients.",
+        "The GTM Engenharia project is a web application developed for the civil engineering company GTM Engenharia. The frontend is built with ReactJS using Vite and TailwindCSS, while the backend is powered by Node.js with MongoDB. The site is highly customizable and includes an admin panel that allows administrators to edit information, manage completed projects, and handle budget and contact requests. Additionally, an integrated blog highlights the company’s projects, facilitating direct communication with clients. The application is managed with Docker and hosted on AWS.",
       text_pt:
-        "O projeto GTM Engenharia é uma aplicação web desenvolvida para a empresa de engenharia civil GTM Engenharia. Utilizando ReactJS com Vite e TailwindCSS no frontend e Node.js com MongoDB no backend, o site é altamente personalizável. Ele inclui um painel administrativo que permite aos administradores modificar informações, gerenciar projetos concluídos e lidar com solicitações de orçamento e contato. Além disso, um blog integrado destaca todos os projetos da empresa, facilitando a comunicação direta com os clientes.",
+        "O projeto GTM Engenharia é uma aplicação web criada para a empresa de engenharia civil GTM Engenharia. O frontend é desenvolvido com ReactJS utilizando Vite e TailwindCSS, enquanto o backend utiliza Node.js com MongoDB. O site é altamente personalizável e inclui um painel administrativo que permite aos administradores editar informações, gerenciar projetos concluídos e lidar com solicitações de orçamento e contato. Além disso, um blog integrado destaca os projetos da empresa, facilitando a comunicação direta com os clientes. A aplicação é gerenciada com Docker e hospedada na AWS.",
     },
     {
       id: 5,
       image: "/projects/5.png",
-      project_name: "Fluxplaces",
+      project_name: "Promoplace",
       text_en:
-        "Fluxplaces Marketplace is an application that helps users locate nearby stores using the Google Maps API, allowing them to find products within a specified radius, along with promotions and discounts. The frontend is developed with ReactJS and Next.js, styled with TailwindCSS, and uses TypeScript for enhanced security and scalability. On the backend, built with Python and Django, the application integrates the MercadoPago gateway and uses MySQL on Cloudinary to manage user data, store information, and transactions.",
+        "Promoplace is an application that helps users locate nearby stores using the Google Maps API, allowing them to search for products within a specific radius, as well as promotions and discounts. The frontend is developed with ReactJS and Next.js, styled with TailwindCSS, and utilizes TypeScript to ensure security and scalability. On the backend, the application is built with Python and Django, using MySQL, along with Docker and AWS, to manage user data and store information.",
       text_pt:
-        "Fluxplaces Marketplace é uma aplicação que ajuda os usuários a encontrar lojas próximas usando a API do Google Maps, permitindo-lhes localizar produtos dentro de um raio especificado, além de promoções e descontos. O frontend é desenvolvido com ReactJS e Next.js, estilizado com TailwindCSS, e utiliza TypeScript para maior segurança e escalabilidade. No backend, construído com Python e Django, a aplicação integra o gateway MercadoPago e utiliza MySQL no Cloudinary para gerenciar dados de usuários, informações das lojas e transações.",
+        "Promoplace é uma aplicação que ajuda os usuários a encontrar lojas próximas usando a API do Google Maps, permitindo a busca de produtos dentro de um raio específico, além de promoções e descontos. O frontend é desenvolvido com ReactJS e Next.js, estilizado com TailwindCSS, e utiliza TypeScript para garantir segurança e escalabilidade. No backend, a aplicação é construída com Python e Django, utilizando MySQL, com Docker e AWS, para gerenciar os dados dos usuários e as informações das lojas.",
     },
   ];
 
@@ -130,7 +130,7 @@ const Project: React.FC<ProjectProps> = ({ project, language }) => {
       >
         <span className="text-white text-3xl">{project.project_name}</span>
         <span className="text-md sm:text-xl text-white flex items-start md:items-center mt-2 mb-10 md:mt-8 md:mb-0">
-          {language === "en" ? project.text_en : project.text_pt}
+          {language !== "en" ? project.text_en : project.text_pt}
         </span>
       </div>
     </>

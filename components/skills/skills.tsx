@@ -27,6 +27,8 @@ const logos = [
   // { src: '/logos/18.svg', alt: 'graphql' },
   { src: '/logos/19.svg', alt: 'python' },
   { src: '/logos/20.svg', alt: 'django' },
+  // { src: '/logos/21.svg', alt: 'aws' },
+  // { src: '/logos/22.svg', alt: 'docker' },
 ];
 
 const settings = {

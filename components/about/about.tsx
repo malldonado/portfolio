@@ -10,8 +10,8 @@ type Props = {
 function About({ language }: Props) {
   // Hook para detectar quando o componente está visível
   const { ref, inView } = useInView({
-    triggerOnce: true, // Dispara a animação apenas uma vez
-    threshold: 0.5, // Dispara a animação quando 50% do componente está visível
+    triggerOnce: true,
+    threshold: 0.5,
   });
 
   return (
@@ -24,22 +24,22 @@ function About({ language }: Props) {
       >
         <div className="text-left">
           <h1 className="text-4xl sm:text-5xl lg:text-7xl mb-10">
-            {language === "en" ? "About Me" : "Sobre Mim"}
+            {language !== "en" ? "About Me" : "Sobre Mim"}
           </h1>
           <p className="text-lg sm:text-2xl">
-            {language === "en" ? (
+            {language !== "en" ? (
               <>
-                I graduated in Systems Analysis and Development from FATEC and am currently improving my English at Influx. My journey includes experience as a front-end developer on a thesis project focused on pet adoption, and as a Full Stack Developer at Performa.ai, where I integrated virtual stores from various ecommerce platforms. I am continually studying new technologies such as GraphQL, AWS, and Docker, and actively contribute to projects on my GitHub.
+                I hold a degree in Systems Analysis and Development from FATEC and am currently enhancing my English skills at Influx. My experience includes working as a front-end developer on a graduation project focused on animal adoption and as a Full Stack Developer at Performa.ai, where I integrated virtual stores across various e-commerce platforms. I am constantly learning new technologies and actively contribute to projects on my GitHub.
                 <br />
                 <br />
-                My portfolio is diverse, featuring the Art Burger application, which includes an admin panel for customizing the burger menu and managing orders. I also developed the GTM Engenharia website, which offers quote request functionality and a corporate blog. Additionally, I created Admmiz, a robust inventory management system that covers suppliers, clients, units, categories, products, purchases, and invoices. Another highlight is the Desenvolve forum, designed for developers to ask questions and exchange knowledge.
+                My portfolio features several projects, including Admmiz, a comprehensive inventory management system that covers suppliers, clients, units, categories, products, purchases, and invoices. I also developed ArtBurger, an interactive website for a gourmet burger restaurant, and the GTM Engenharia website, which offers functionalities for budget requests and a corporate blog. Another highlight is Desenvolve, a forum created to allow developers to share questions and knowledge. Additionally, Promoplace is a platform for locating nearby stores, providing information on products, promotions, and discounts.
               </>
             ) : (
               <>
-                Sou formado em Análise e Desenvolvimento de Sistemas pela FATEC e atualmente estou aprimorando meu inglês na Influx. Minha trajetória inclui experiência como desenvolvedor front-end em um projeto de TCC focado na adoção de animais, e como Desenvolvedor Full Stack na Performa.ai, onde integrei lojas virtuais de diversas plataformas de ecommerce. Estou constantemente estudando novas tecnologias como GraphQL, AWS e Docker, e contribuo ativamente para projetos no meu GitHub.
+                Sou graduado em Análise e Desenvolvimento de Sistemas pela FATEC e estou aprimorando meu inglês na Influx. Minha experiência inclui atuação como desenvolvedor front-end em um projeto de TCC voltado para a adoção de animais e como Desenvolvedor Full Stack na Performa.ai, onde integrei lojas virtuais de várias plataformas de e-commerce. Estou constantemente aprendendo novas tecnologias e contribuo ativamente para projetos no meu GitHub.
                 <br />
                 <br />
-                Meu portfólio é diversificado, incluindo a aplicação Art Burger, que oferece um painel administrativo para personalização do menu de hambúrgueres e gestão de pedidos. Desenvolvi também o site da GTM Engenharia, com funcionalidades para solicitação de orçamentos e um blog corporativo. Além disso, criei o Admmiz, um robusto sistema de gerenciamento de estoque que abrange fornecedores, clientes, unidades, categorias, produtos, compras e faturas. Outro destaque é o fórum Desenvolve, projetado para que desenvolvedores possam tirar dúvidas e trocar conhecimentos.
+                Meu portfólio inclui diversos projetos, como o Admmiz, um sistema robusto de gerenciamento de estoque que abrange fornecedores, clientes, unidades, categorias, produtos, compras e faturas. Também desenvolvi o ArtBurger, um site interativo para uma lanchonete gourmet, e o site da GTM Engenharia, que oferece funcionalidades para solicitação de orçamentos e um blog corporativo. Outro projeto de destaque é o fórum Desenvolve, criado para permitir que desenvolvedores compartilhem dúvidas e conhecimentos. Além disso, o Promoplace é uma plataforma para localizar lojas próximas ao usuário, com informações sobre produtos, promoções e descontos.
               </>
             )}
           </p>
